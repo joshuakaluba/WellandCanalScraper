@@ -50,4 +50,4 @@ try:
     request = requests.post(url=update_status_url, data=data)
     print(json_output)
 except:
-    print('An error occured.')
+    print('An error occurred.')
